@@ -1,0 +1,55 @@
+* {
+    background-color: #ffbe76;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.app {
+    width: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    border: solid 0.25rem black;
+    border-radius: 1.5rem;
+    background-color: #f0932b;
+}
+
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+    border: solid 0.15rem black;
+    border-radius: 0.25rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-title {
+    margin-top: 0.25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-input, .form-button {
+    margin-top: 1rem;
+    border: solid 0.05rem black;
+    border-radius: 0.25rem;
+}
+
+.list {
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: row;
+    justify-content: flex-start;
+}
