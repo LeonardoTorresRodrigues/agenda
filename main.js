@@ -1,5 +1,6 @@
 import BotaoConclui from './components/taskDone.js'
-import BotaoDeleta from './components/taskDelete.js'
+import BotaoDeleta from './components/taskDelete.js';
+import BotaoCountdown from './components/addDate.js';
 
 const criarTarefa = (evento) => {
 
@@ -15,6 +16,7 @@ const criarTarefa = (evento) => {
 
     tarefa.innerHTML = conteudo;
 
+    //tarefa.appendChild(BotaoCountdown());
     tarefa.appendChild(BotaoConclui());
     tarefa.appendChild(BotaoDeleta());
     lista.appendChild(tarefa);
