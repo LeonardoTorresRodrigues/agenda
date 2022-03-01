@@ -16,12 +16,12 @@ const criarTarefa = (evento) => {
 
     tarefa.innerHTML = conteudo;
 
-    //tarefa.appendChild(BotaoCountdown());
     tarefa.appendChild(BotaoConclui());
     tarefa.appendChild(BotaoDeleta());
     lista.appendChild(tarefa);
     input.value = " ";
     input.focus();
+    BotaoCountdown();
 } 
 
 const novaTarefa = document.querySelector('[data-form-button]');
