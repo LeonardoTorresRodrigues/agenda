@@ -138,6 +138,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .todo-list {
+        padding: 0;
+    }
+
     .form {
         flex-wrap: wrap;
         justify-content: center;
