@@ -136,3 +136,20 @@
 .task.done .date-content {
     text-decoration: line-through;
 }
+
+@media screen and (max-width: 480px) {
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0.62rem;
+    }
+
+    .form-button {
+        margin-top: 0.5rem;
+    }
+
+    .task {
+        justify-content: space-evenly;
+        padding: 0 1rem 0.7rem;
+    }
+}
